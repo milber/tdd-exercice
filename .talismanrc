@@ -1,0 +1,18 @@
+fileignoreconfig:
+- filename: Dockerfile
+  checksum: 53215487fab30452a319ef2d0f018c9a152131c250209fd0d424fb2d6da62559
+- filename: Gemfile
+  checksum: b866329ecbf819ff7e08c93fcb9259b6a62c8c4ea79f285e3f336dc1857955e9
+- filename: config/credentials.yml.enc
+  checksum: 6ab9dc67334cd47eaccfbe828403a82ac13f9a680ccb85c2a6ca528570283885
+- filename: config/database.yml
+  checksum: ef331f4cbab4e2cea205214cfb3ba041ee57e53e395eb9c95f3a2a18e3bc5db6
+- filename: config/environment.rb
+  checksum: d0c1b7ce8bcba5fd87145cbd81982f3ae77f7d653e47c8e1db807cfeb29d0267
+- filename: config/environments/production.rb
+  checksum: f3e41d318fb2aeb68016eff2615588bdd8010697f7ef2cf95ebbbbd654ff8028
+- filename: config/initializers/filter_parameter_logging.rb
+  checksum: fe02204a5ef7a525204ed2985bcf4f31fcc6b4af05cc28528b8586f989a32002
+- filename: config/storage.yml
+  checksum: 9bc94b1f2e214e78b41179a56ebeb546e469ec8f0ce3f507006678fcba89f02e
+version: "1.0"
