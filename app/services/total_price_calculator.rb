@@ -12,10 +12,12 @@ class TotalPriceCalculator
 
     private
     def discount
-        discount = 0
-        factor_discount = @number_of_tickets / 5
+        discount_unit_value = 2
+        discount_block = 5
 
-        discount = 2 * factor_discount
+        factor_discount = @number_of_tickets / discount_block
+
+        discount = discount_unit_value * factor_discount
 
         return discount
     end
