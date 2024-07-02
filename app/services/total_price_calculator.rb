@@ -1,12 +1,12 @@
 class TotalPriceCalculator
 
-    def initialize(number_of_tickets, unitary_ticket_price)
+    def initialize(number_of_tickets, ticket_unit_price)
         @number_of_tickets = number_of_tickets
-        @unitary_ticket_price = unitary_ticket_price
+        @ticket_unit_price = ticket_unit_price
     end
     
     def call
-        total_price = @number_of_tickets * @unitary_ticket_price - discount
+        total_price = @number_of_tickets * @ticket_unit_price - discount
         return total_price
     end
 
